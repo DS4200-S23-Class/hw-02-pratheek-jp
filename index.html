@@ -5,8 +5,8 @@
     <meta charset=utf-8/>
 </head>
 
-    <link rel="stylesheet" href="style.css">
-    <title>hw-02</title>
+<link rel="stylesheet" href="style.css">
+<title>hw-02</title>
 
 
 <body>
@@ -27,113 +27,176 @@
                 </tr>
                 <tr bgcolor="white" align="center">
                     <td>UFO</td>
-                    <td><a href="/Users/pratheek_mandalapu/Desktop/DS4200/hw-02-pratheek-jp/data/UFO.csv">Link</a></td>
+                    <td><a href="data/UFO.csv">Link</a></td>
                     <td>Table</td>
                 </tr>
                 <tr bgcolor="white" align="center">
                     <td>Airports</td>
-                    <td><a href="/Users/pratheek_mandalapu/Desktop/DS4200/hw-02-pratheek-jp/data/Airports.csv">Link</a></td>
+                    <td><a href="data/Airports.csv">Link</a></td>
                     <td>Table</td>
                 </tr>
                 <tr bgcolor="white" align="center">
-                    <td>Google-Webt</td>
-                    <td><a href="/Users/pratheek_mandalapu/Desktop/DS4200/hw-02-pratheek-jp/data/Google-Web.txt">Link</a></td>
+                    <td>Google-Web</td>
+                    <td><a href="data/Google-Web.txt">Link</a></td>
                     <td>Network</td>
                 </tr>
             </table>
-
-
         </div>
 
+        <div class="info">
+            <h1 class="centered">
+                Data Types
+            </h1>
 
-    </div>
+            <h2>
+                UFO
+            </h2>
 
-    <div class="info">
-
-        <h1 class="centered">
-            Data Types
-        </h1>
-        
-        <h2>
-            UFO
-        </h2>
-
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2
+            <ul>
+                <li>Items</li>
+                <li>Datetime: Attributes
+                    <ul>
+                      <li>Ordinal</li>
+                      <li>Sequential</li>
+                  </ul>
+              </li>
+              <li>City: Attributes
                 <ul>
-                  <li>Sub Item 1</li>
-                 <li>Sub Item 2</li>
-                 </ul>
-            </li>
-            <li>Item 3</li>
-        </ul>
-
-        <h2>
-            Airports
-        </h2>
-
+                  <li>Categorical</li>
+              </ul>
+          </li>
+          <li>State: Attributes
+            <ul>
+              <li>Categorical</li>
+          </ul>
+      </li>
+      <li>Country: Attributes
         <ul>
-            <li>Item 1</li>
-            <li>Item 2
-                <ul>
-                  <li>Sub Item 1</li>
-                 <li>Sub Item 2</li>
-                 </ul>
-            </li>
-            <li>Item 3</li>
-        </ul>
+          <li>Categorical</li>
+      </ul>
+  </li>
+  <li>Shape: Attributes
+    <ul>
+      <li>Categorical</li>
+  </ul>
+</li>
+<li>Duration: Attributes
+    <ul>
+      <li>Quantitative</li>
+      <li>Sequential</li>
+  </ul>
+</li>
+</ul>
 
-        <h2>
-            Google-Webt
-        </h2>
+<h2>
+    Airports
+</h2>
 
+<ul>
+    <li>Items</li>
+    <li>Airport Name: Attributes
         <ul>
-            <li>Item 1</li>
-            <li>Item 2
-                <ul>
-                  <li>Sub Item 1</li>
-                 <li>Sub Item 2</li>
-                 </ul>
-            </li>
-            <li>Item 3</li>
-        </ul>
+          <li>Categorical</li>
+      </ul>
+  </li>
+  <li>Latitude: Position</li>
+  <li>Longitude: Position</li>
+</ul>
 
+<h2>
+    Google-Web
+</h2>
 
-        
-    </div>
+<ul>
+    <li>Items (Nodes)</li>
+    <li>Links</li>
+</ul>
+</div>
 
-    <div id="task-abstraction">
-        
-        <h1 class="centered">
-            Task Abstraction
-        </h1>
-
-        <!-- column 1 -->
-        <div style="float:left; width:50%;">
-            <div style="text-align: center;">
-         <img src="/Users/pratheek_mandalapu/Desktop/DS4200/hw-02-pratheek-jp/img/vis1.png" width="750" height="500" class="centered">
+<div id="task-abstraction">
+    <h1 class="centered">
+        Task Abstraction
+    </h1>
+    <div class="container" style="display: flex;">
+        <div class="left-column" style="flex-shrink: 1;">
+            <div style="text-align: center; color:blue">
+           <img src="img/vis1.png" width="700" height="450" class="centered">
+           <div align="left">
+                <p>
+                    Produce -> Record
+                </p>
+                <p>
+                    Search -> Explore
+                </p>
+                <p>
+                    Query -> Summarize
+                </p>
+                <p>
+                    All Data -> Trends
+                </p>
             </div>
+       </div>
+   </div>
 
-                <h3>
-                High Level:
-                </h3>
-                
-        </div>
-
-        <!-- column 2 -->
-        <div style="float:right; width:50%;">
-            <div style="text-align: center;">
-        <img src="/Users/pratheek_mandalapu/Desktop/DS4200/hw-02-pratheek-jp/img/vis2.png" width="750" height="500" class="centered">
+   <div class="right-column">
+    <div style="text-align: center; color: blue;">
+        <img src="img/vis2.png" width="700" height="450" class="
+        centered">
+        <div align="left">
+        <p>
+                    Consume -> Present
+                </p>
+                <p>
+                    Search -> Browse
+                </p>
+                <p>
+                    Query -> Compare
+                </p>
+                <p>
+                    Attributes -> Distribution
+                </p>
             </div>
         </div>
+   </div>
+</div>
 
 
-
-
-
+<div id="decoration">
+    <div style="display: flex;">
+        <div style="flex: 1;">
+            <svg width="200" height="100">
+                <circle cx="100" cy="50" r="40" fill="yellow" opacity="50%" />
+            </svg>
+        </div>
+        <div style="flex: 1;"><svg width="200" height="100">
+                <rect x="60" y="25" width="80" height="40" stroke="black" stroke-width="4" fill="red" />
+            </svg></div>
+        <div style="flex: 1;"><svg width="200" height="100">
+                <circle cx="100" cy="50" r="40" fill="yellow" opacity="50%" />
+            </svg>
+        </div>
+        <div style="flex: 1;"><svg width="200" height="100">
+                <rect x="60" y="25" width="80" height="40" stroke="black" stroke-width="4" fill="red" />
+            </svg></div>
+        <div style="flex: 1;"><svg width="200" height="100">
+                <circle cx="100" cy="50" r="40" fill="yellow" opacity="50%" />
+            </svg>
+        </div>
     </div>
+</div>
 
+<h1 class="Acknowledgements">
+    Acknowledgements
+    <div class="sources">
+        <ul>
+            <li><a href="data/UFO.csv">Link</a></li>
+            <li><a href="data/UFO.csv">Link</a></li>
+            <li><a href="data/UFO.csv">Link</a></li>
+            <li><a href="data/UFO.csv">Link</a></li>
+            <li><a href="data/UFO.csv">Link</a></li>
+        </ul>
+    </div>
+</h1>
 
 </body>
 
